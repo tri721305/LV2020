@@ -1,0 +1,23 @@
+
+  
+  .navbar {
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
+  
+  .nav-links{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+  }
+  
+  .test{
+    color:white;
+    text-decoration: none;
+    /* padding-left: 50px; */
+  }
