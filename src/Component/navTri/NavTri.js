@@ -6,9 +6,10 @@ import Contact from '../Contact/Contact'
 import Destination from '../Destination/Destination'
 import Login from '../Login/Login'
 import News from '../News/News'
-
+import Slidebackgroundtest from '../../slide';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import SlideBackgroundtest from '../../slide'
 function Navtest() {
   return (
     <Router>
@@ -16,7 +17,7 @@ function Navtest() {
         {/* <h1>App</h1> */}
         <Navdisplay />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/" exact component={SlideBackgroundtest} />
             <Route path="/destination"  component={Destination}/>
             <Route path="/blog" component={Blog} />
             <Route path="/news" component={News} />

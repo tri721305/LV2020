@@ -8,7 +8,7 @@ function Navdisplay(){
     return(
         <div className='navbar'>
             <ul className="nav-links">
-                <Link className="test" to='/news'>
+                <Link className="test" to='/'>
                 <li>Trip</li>
                 </Link>
                 <Link className="test" to='/destination' >
